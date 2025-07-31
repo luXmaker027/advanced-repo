@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+p {
+    color: #ffff;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: start;
+    line-height: 28px;
+    padding: 20px
+}
+
+h1 {
+    color:#1A71E9;    
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 20px;
+    text-shadow: 2px 2px rgb(11, 209, 235);
+
+}
+.stname{
+    background-image: url(../CSS/images/technology.jpg);
+    border-radius: 10px;
+    border:#f00505 5px;
+    border-style: double;
+    
+}
+
+.type2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    border: #ffff solid 3px;
+    border-radius: 6px;
+}
+
+.icon{
+    text-decoration: underline;
+}
+a{
+ display: flex;
+ justify-content: center;
+ text-decoration: none;
+}
+label{
+    background-color: #ffff;
+    border-radius: 45px;
+    padding: 8px;
+    margin-top: 25px;
+    border: rgb(44, 42, 42) 3px solid;
+    
+}
+label:hover{
+    background-color: rgb(92, 86, 86);
+    color: #ffff;
+}
+
+#color{
+    color: #ffff;
+
+}
+#heading{
+    color: rgb(221, 14, 14);
+    text-shadow: 2px 2px rgb(245, 202, 9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    list-style-type: upper-roman;
+    color: #ffff;
+    line-height: 35px;
+    word-spacing: 4px;
+    margin: 20px;
+}
+
+ul{
+        color: #ffff;
+        line-height: 35px;
+        word-spacing: 4px;
+        list-style-type: circle;
+        margin: 20px;
+}
+
+#square{
+    list-style-type: square;
+    color: #ffff;
+    line-height: 35px;
+    word-spacing: 4px;
+    margin: 20px;
+    color: antiquewhite;
+}
